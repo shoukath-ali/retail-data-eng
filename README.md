@@ -82,20 +82,22 @@ Because the data is multivariate, sequential, and time-series in nature, it supp
 ---
 
 ## Folder Structure
-├── Architecture.svg               # High‑level pipeline diagram
-├── Report - With Screenshot...pdf # Detailed report with screenshots and visualisation
-├── Retail_visualization.pdf       # Sample Power BI dashboard
-├── Video Presentation.mp4         # Recorded project presentation
-└── Data_and_Code/
-    ├── rawdata/                   # Source data downloaded from S3
-    │   └── Online_Retail.csv
-    ├── processed/                 # Cleaned dataset written by PySpark
-    ├── totalRevenueByCountry/     # Revenue aggregated by country
-    ├── totalQuantityCountry/      # Quantity aggregated by country
-    ├── customerTransactionValue/  # Total revenue per customer
-    ├── averageTransactionPerCustomer/ # Mean revenue per customer
-    ├── monthly_spending_trends/   # Revenue grouped by InvoiceYearMonth
-    └── Project.ipynb              # Jupyter notebook containing the entire pipeline
+
+├── Architecture.svg                 # High-level pipeline diagram  
+├── Report - With Screenshot.pdf     # Detailed report with screenshots and visualisations  
+├── Retail_visualization.pdf         # Sample Power BI dashboard  
+├── Video Presentation.mp4           # Recorded project presentation  
+└── Data_and_Code/  
+  ├── rawdata/                     # Source data downloaded from S3  
+  │   └── Online_Retail.csv  
+  ├── processed/                   # Cleaned dataset written by PySpark  
+  ├── totalRevenueByCountry/       # Revenue aggregated by country  
+  ├── totalQuantityCountry/        # Quantity aggregated by country  
+  ├── customerTransactionValue/    # Total revenue per customer  
+  ├── averageTransactionPerCustomer/ # Mean revenue per customer  
+  ├── monthly_spending_trends/     # Revenue grouped by InvoiceYearMonth  
+  └── Project.ipynb                # Jupyter notebook containing the entire pipeline
+
 ## Results & Insights
 
 - Successfully processed **541 909 transactions** and saved structured outputs to **Amazon S3**.  
